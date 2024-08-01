@@ -36,7 +36,7 @@
 	<style>
 		body {
 			font-family: 'Poppins', sans-serif;
-			color: #9b59b6; /* Pastel violet color */
+			color: #b19cd9; /* Lighter shade of purple */
 			background-color: #f4f4f4;
 		}
 		h1, h2 {
@@ -45,11 +45,11 @@
 		}
 		h1 {
 			font-size: 2.5em;
-			color: #8e44ad; /* Slightly darker pastel violet */
+			color: #9370db; /* Slightly darker but still light purple */
 		}
 		h2 {
 			font-size: 1.5em;
-			color: #9b59b6; /* Same pastel violet as body text */
+			color: #b19cd9; /* Same lighter purple as body text */
 		}
 		.social a img {
 			transition: transform 0.3s ease;
@@ -60,12 +60,14 @@
 		footer {
 			text-align: center;
 			padding: 20px;
-			background-color: #222;
-			color: #9b59b6; /* Pastel violet color for footer text */
+			background-color: rgba(34, 34, 34, 0.001); /* 90% transparent black */
+			color: #b19cd9; /* Lighter purple color for footer text */
 			position: fixed;
 			width: 100%;
 			bottom: 0;
 			left: 0;
+			backdrop-filter: blur(5px); /* Slight blur effect */
+			-webkit-backdrop-filter: blur(5px); /* Blur effect for Safari */
 		}
 		@keyframes fadeInDown {
 			from {
